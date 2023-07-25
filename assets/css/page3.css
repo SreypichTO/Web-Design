@@ -1,0 +1,93 @@
+
+.f1{
+    display: flex;
+    padding-right: 10px;
+    /* justify-content: end; */
+    background-color: rgb(221, 230, 237);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.f-3{
+    display: flex;
+    padding-right: 10px;
+    justify-content: end;
+    /* background-color: rgb(221, 230, 237); */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.Font{
+    font-size: 18px; 
+    color:rgba(82, 109, 130, 1);
+    font-family: 'Titillium Web', sans-serif;
+}
+.row-pic{
+    width: 381px;
+    height: 249px;
+    /* background-color: rgb(132, 100, 59); */
+    display: flex;
+    justify-content: space-between;
+}
+.part1{
+    width: 175px;
+    height: 249px;
+    /* background-color: antiquewhite; */
+    border-radius: 10px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+}
+.line-page3{
+    background-color: rgba(157, 178, 191, 1);
+    /* height: 3px; */
+    width: 392px;
+    padding-bottom: 3px;
+    
+}
+.b2-items{
+    width: 90px;
+    height: 120px;
+    margin: 2px;
+    margin-top: 2px;
+    background-color: brown;
+    border-radius: 10px;
+}
+img{
+
+    object-fit: cover;
+}
+/* .scroll-part{
+    overflow-y: scroll;
+} */
+.scroll-part::-webkit-scrollbar {
+    display: none;
+}
+.scroll-part {
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    overflow-y: scroll;
+  }
+.blur-section{
+    position: relative;
+    /* justify-self:baseline; */
+}
+.above-blur{
+    /* z-index: 1; */
+    position: absolute;
+    bottom: 35%;
+    right: 25%;
+    width: 60px; 
+    color: black; 
+}
+.blur{
+    filter: blur(8px);
+    -webkit-filter: blur(1.5px);
+}
+
+
+ 
+

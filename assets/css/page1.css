@@ -1,0 +1,133 @@
+body{
+    margin-left: 300px;
+    margin-top: 20px;
+ }
+.wrapper{
+    margin-top: 20px; 
+         
+}
+  
+.p1{
+    height: 926px;
+    overflow-y: hidden;
+    width: 428px;
+    background-color: rgba(157, 178, 191, 1);
+    border: solid 0.5px;
+    border-bottom: none;
+    border-radius: 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.row1{
+    /* background-color: rgb(216, 207, 207); */
+    width: 392px;
+    height: 19px;
+    margin: 10px;
+    margin-top: 25px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.font{
+    font-size: 50px;
+    color: rgba(221, 230, 237, 1);
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    font-family: 'Titillium Web', sans-serif;
+}
+input{
+    width: 286px;
+    height: 50px;
+    border-radius: 31px;
+    border: 0;
+    padding-left: 10px;
+    /* position: relative; */
+    
+}
+.user-email{
+    width: 286px;
+    height: 50px;
+    border-radius: 31px;
+    border: 0;
+    padding-left: 10px;
+    background-color: white;
+
+}
+.logIn{
+    width: 286px;
+    height: 50px;
+    border-radius: 31px;
+    border: solid 2px white;
+    background-color: rgba(39, 55, 77, 0.9);
+    padding-left: 10px;  
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+}
+.f{
+    font-size: 20px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* #svg{
+    position: absolute;
+    left: 250px;
+    top: 15px;
+    z-index: 1;
+} */
+
+.wrap-ruler{
+    display: flex;
+    align-items: center;  
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+.ruler{
+    margin: 10px;
+    width: 86px;
+    height: 1px;
+    background-color: white;
+    /* border: 0.5px solid black; */
+}
+.btn{
+    width: 286px;
+    height: 50px;
+    border-radius: 31px;
+    border: 0;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.f-btn{
+    font-size: 20px;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
+.img-btn{
+     margin: 10px;
+}
+button{
+    border: 0;
+    background-color: rgba(157, 178, 191, 1);
+}
+.Register:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.logIn:hover{
+    box-shadow: 0px 1px 5px rgba(39, 55, 77, 0.9);
+    /* background-color: rgba(157, 178, 191, 1); */
+    border: solid 2px black;
+
+}
+/* ------------------------------- */
+.text-font{
+    font-size: 18px;
+    text-shadow: 1px 2px 3px rgba(157, 178, 191, 1);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
