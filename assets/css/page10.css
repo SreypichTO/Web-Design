@@ -42,7 +42,7 @@
     border-radius: 10px;
     background-color: gray;
     object-fit: cover;
-    border: solid 2px rgba(82, 109, 130, 1);
+    border: solid 3px rgba(82, 109, 130, 1);
 }
 .p{
     font-family: 'Titillium Web', sans-serif;
