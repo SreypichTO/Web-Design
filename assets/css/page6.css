@@ -55,10 +55,21 @@
     margin-top: 10px;
     border-radius: 5px ;
     border: solid 1.5px rgba(157, 178, 191, 1);
-    background-color: gray;
+    background-color: rgb(221, 230, 237);
     /* filter: blur(4px); */
     object-fit: cover;
 }
+.post-image2{
+    width: 392px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 5px ;
+    border: solid 1.5px rgba(157, 178, 191, 1);
+    background-color: rgb(221, 230, 237);
+    /* filter: blur(4px); */
+    object-fit:scale-down;
+}
+
 .comment-wrap{
     padding-top: 2px;
     width: 392px;
