@@ -2,7 +2,7 @@
 .font-page9{
     font-family: 'Titillium Web', sans-serif;
     color: rgba(82, 109, 130, 1);
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 .r1{
@@ -12,6 +12,7 @@
     font-family: 'Titillium Web', sans-serif;
     color: rgba(82, 109, 130, 1);
     font-size: 18px;
+    text-shadow: 0px 1px 1px;
     
 }
 .title{
@@ -36,21 +37,35 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-   background-color: whitesmoke;
-   padding-left: 10px;
+    border-radius: 3px;
+    background-color: rgba(157, 178, 191, 1);
+   /* padding-left: 10px; */
 }
 .book-row-container:hover{
     /* background-color: gray; */
     /* border: rgba(82, 109, 130, 1) 1px solid; */
-    padding-left: 30px;
+    /* padding-left: 30px; */
+    background-color: rgb(221, 230, 237);
 }
 .book{
     width: 88px;
     height: 130px;
     border-radius: 3px;
     background-color: rgba(157, 178, 191, 1);
-    margin-right: 25px;
-   
+    margin: 15px;
+    object-fit: cover;
+}
+.book:hover{
+    cursor: pointer;
+    width: 100px;
+    height: 142px;
+    object-fit: cover;
+    margin: 0px;
+    margin-right:20px; 
+    margin-left:20px; 
+    /* opacity: 0.6; */
+    transition: 0.1s;
+    box-shadow: 1px 4px 5px ;
 }
 
 .r3{
@@ -60,7 +75,7 @@
     padding: 10px;
 }
 .list-lib-ele{
-    /* box-shadow: 0px 1px 9px; */
+      /* box-shadow: 0px 1px 9px; */
     width: 85px;
     height: 90px;
     border-radius: 20px;
@@ -90,5 +105,14 @@
     cursor: pointer;
     background-color:  whitesmoke;
     border: solid 1px;
+}
+a {
+    text-decoration: none !important;
+    color: rgba(82, 109, 130, 1); ;
+}
+.xx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
  
